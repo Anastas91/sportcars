@@ -1,0 +1,183 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    
+    
+}
+.clearfix:after{
+content:'';
+display: table;
+width: 100%;
+clear: both;
+
+}
+.div{
+    box-sizing: border-box;
+
+}
+header{
+    
+    height: 100vh;
+    background: url(https://cdn.motor1.com/images/mgl/Ey3mR/s1/2020-ferrari-f8-spider.jpg) no-repeat center top / cover;
+    
+}   
+
+.container{
+    width: 1070px;
+    margin: 0 auto;   
+}
+.logo {
+    width: 90px;
+    height: 120px;
+    margin-top: 15px;
+    float: none;  
+}
+nav{
+  float: right;
+  margin-right: 43px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu{
+    padding: 0;
+    margin:0;
+    display: block;
+    margin-top: 50px;
+}
+.menu li{
+    float: left;
+    display: block;
+    margin-right: 41px;
+}
+.menu  a{
+    color:black;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.button{
+    background:  #fed136;
+    color: #484543;
+    border-radius: 3px;
+    display: block;
+    width: 90px;
+    padding: 10px 0;
+    margin:0 auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 0;
+    text-align: center;
+    float: left;
+}
+
+.title {
+    text-align: center;
+    padding-top: 40px; 
+}
+.title h3{
+    font-style:italic ;
+}
+.title h6 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+.title p {
+ color: #777777;
+ text-align: center;
+ font-size: 17px;
+ margin-top: 5px;
+ line-height: 1.55em; 
+}
+
+.series{
+    margin-top: 30px; 
+    margin-bottom: 50px;  
+}
+.series__item{
+    width: 535px;
+    float: left;
+    text-align: center; 
+}
+.series__item h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.series__item ul{
+    color: #777777;
+    font-size: 16px;  
+}
+.series__item:last-child{
+    float: right;
+    margin-top: 114px;
+}
+
+#story{
+    background: black;    
+}
+.works{
+    margin-top: 70px;
+}
+.works img{
+ float: left;
+}
+.works img:nth-child(2){
+    margin-left: 84px; 
+}
+.works img:last-child{
+    float: right;
+}
+
+
+.advantages{
+    background-color: black;
+    color: #9c9999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    height: 175vh;
+}
+.advan_one{
+    width: 1130px;
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+}
+.anvan_one h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 40px;    
+}
+.round{
+    margin-top: 80px;
+    margin-left: 100px;
+    border-radius: 70px;
+    border: 3px solid  #9c9999;;
+    box-shadow: 0 0 25px #666; 
+    float: left;
+    margin: 8px 8px 8px 0;   
+}
+.advan_one p{
+    text-align: center;
+    padding-bottom: 40px;
+    margin-left: 110px;
+    line-height: 1.55em;  
+}
+
+.footer{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;  
+    
+}
+
+.footer img{
+    width: 60px;
+    height: 90px;
+    margin-top: 15px;
+    float: none;  
+}
+
