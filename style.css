@@ -17,6 +17,7 @@ header{
     background: url(https://cdn.motor1.com/images/mgl/Ey3mR/s1/2020-ferrari-f8-spider.jpg) no-repeat center top / cover;
     height: 100vh;
     margin: 0%;
+     overflow-x:hidden;
 }
 .container{
     width: 1070px;
@@ -112,7 +113,8 @@ nav{
 }
 
 #story{
-    background: black;    
+    background: black;   
+     overflow-x:hidden;
 }
 .works{
     margin-top: 70px;
@@ -134,6 +136,7 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     height: 175vh;
+     overflow-x:hidden;
 }
 .advan_one{
     width: 1130px;
