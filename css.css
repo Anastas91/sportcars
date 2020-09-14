@@ -21,6 +21,7 @@ header{
     
     height: 100vh;
     background: url(https://cdn.motor1.com/images/mgl/Ey3mR/s1/2020-ferrari-f8-spider.jpg) no-repeat center top / cover;
+     overflow-x:hidden;
     
 }   
 
@@ -119,6 +120,7 @@ nav{
 
 #story{
     background: black;    
+     overflow-x:hidden;
 }
 .works{
     margin-top: 70px;
